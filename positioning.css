@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: turquoise;
+    height: 100%;
+    width: 100%;
+}
+
+.back { 
+    width: 750px;
+    height: 100%;
+    position: absolute; 
+    background-color: white;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -6%);
+}
+
+.front {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.8;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.front_center {
+    width: 710px;
+    height: 450px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 3%); 
+}
+
+.small {
+    background-color: #000000;
+    opacity: 0.7;
+    padding: 10px;
+    height: 25px;
+    width: 120px;
+    color: turquoise;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+body div:nth-child(4) {
+    top: 12%;
+    left: 8%;
+    position: fixed;
+}
+
+body div:nth-child(5) {
+    top: 50%;
+    left: 5%;
+    position: fixed;
+}
+
+body div:nth-child(6) {
+    top: 6%;
+    left: 50%;
+    position: absolute;
+}
+
+body div:nth-child(7) {
+    top: calc(25% + 10px);
+    left: 80%;
+    position: absolute;
+}
+
+body div:nth-child(8) {
+    top: 88%;
+    left: 60%;
+    position: absolute;
+}
+
+.button {
+    width: 300px;
+    height: 40px;
+    background-color: turquoise;
+    position: absolute;
+    top: 75%;
+    left: 52%;
+}
+
+.line {
+    border-left: 3px dashed turquoise;
+    width: 3px;
+    height: 100px;
+    position: relative;
+    left: 54%;
+    top: 135px;
+}
+
+body div:nth-child(12) {
+    border-left: 3px dashed turquoise;
+    width: 3px;
+    height: 75px;
+    position: relative;
+    left: 65%;
+    top: 160px;
+}
+
+
+body div:nth-child(13) {
+    border-bottom: 3px dashed turquoise;
+    width: 95px;
+    height: 3px;
+    position: relative;
+    top: -9%;
+    left: 73%;
+}
+
+div.size_line {
+    width: 50px;
+    height: 300px;
+    position: relative;
+    border-bottom: 3px dashed turquoise;
+    border-top: 3px dashed turquoise;
+    border-left: 3px dashed turquoise;
+    left: 20%;
+    top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

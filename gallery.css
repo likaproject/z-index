@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1500px;
+    height: 750px;
+    background-color: #000000;
+    margin: 20px auto;;
+    position: relative;
+}
+
+p {
+    font-size: 20px;
+    color: #ffffff;
+  
+    
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 650px;
+}
+
+.left p {
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    color: #ffffff;
+}
+
+.left img {
+    position: absolute;
+    left: 70px;
+    top: 300px;
+}
+
+.main {
+    height: 100px;
+    width: 1350px;
+    bottom: 0;
+    right: 150px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+.right {
+
+}
+
+.right img {
+    position: absolute;
+    right: 70px;
+    top: 300px;
+}
+
+.big {
+    height: 630px;
+    position: absolute;
+    bottom: 100px;
+    right: 150px;
+    z-index: -1;
+    overflow: hidden;
+     right: 0;
+}
+
+.small {
+    height: 90px;
+    position: relative;
+    margin: 5px;
+    bottom: 0;
+    overflow: visible;
+    float: right;
+    display: rtl;
+}
+
+#first .big {
+   z-index: 1; 
+    right: 0;
+}
+
+#second .small:hover + img {
+    z-index: 5;
+}
+#third .small:hover + img {
+    z-index: 5;
+}
+#fourth .small:hover + img {
+    z-index: 5;
+}
+#fifth .small:hover + img {
+    z-index: 5;
+}
+#sixth .small:hover + img {
+    z-index: 5;
+}
+#seventh .small:hover + img {
+    z-index: 5;
+}
+#eighth .small:hover + img {
+    z-index: 5;
+}
+#ninth .small:hover + img {
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+html, body, .main {
+    margin: 0;
+    height: 100%;
+    overflow: auto; 
+}
+
+html, body {
+    background-color: #000000;
+}
+.clear {
+    clear: both;
+}
+
+.catch {
+    width: 500px;
+    height: 330px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid black;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+h1 {
+    transform: rotate(-15deg); 
+    font-size: 65px;
+    color: black;
+    position: absolute;
+    padding: 0 50px;
+    margin: 0;
+    line-height: 170px;
+  
+}
+
+p {
+  font-size: 20px; 
+  font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.modal {
+    text-align: left;
+    width: 470px;
+    height: 170px;
+    box-sizing: border-box;
+    background-color: white;
+    transform: rotate(-16deg) translate(-50%, -50%);
+    position: absolute;
+    left: 52%;
+    top: 38%;
+    z-index: 3;
+    border-radius: 20px;
+    border: 15px solid lightgrey;
+    padding: 5px
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 10px;
+    top: -30px;
+    left: 420px;
+    position: absolute;
+}
+
+.modal > img {
+    position: absolute;
+    top: 55px;
+    left: 350px;
+}
+
+.modal p:nth-child(n + 2) {
+    font-size: 15px;
+    width: 80%; 
+}
+
+.modal p span {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

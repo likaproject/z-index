@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.container {
+    width: 700px;
+    height: 300px;
+    margin: 100px auto;
+    border: 2px solid lightgray;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.item {
+    position: absolute;
+ 
+}
+
+.item_title img  {
+    width: 15%;
+    display: inline-block;
+    opacity: 0.5;
+}
+.item_title p {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.item_title {
+    width: 130px;
+    height: 45px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    background-color: #dedede;
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px 0 10px;
+    position: absolute;
+
+}
+
+.item_text {
+    top: 55px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid gray; 
+    width: 700px;
+    box-sizing:  border-box;
+    position: absolute;
+    background-color: antiquewhite;
+}
+
+.one .item_text, .one .item_title {
+    color: #000000;
+    z-index: 2;
+}
+
+.two .item_title {
+    left: 160px;
+    color: grey;
+
+}
+.three .item_title {
+    left: 320px;
+    color: grey;
+}
+.four  .item_title {
+    left: 480px;
+    color: grey;
+}
+
+.item .item_title:hover{
+    color: #000000;
+}
+.item .item_title:hover img{
+    opacity: 1;
+}
+.two .item_title:hover + .item_text {
+    z-index: 5;
+    color: blue;
+}
+.three .item_title:hover + .item_text {
+    z-index: 5;
+    color: red;
+}
+.four .item_title:hover + .item_text {
+    z-index: 5;
+    color: purple;
+}
+
+
